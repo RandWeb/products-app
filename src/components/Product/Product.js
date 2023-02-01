@@ -8,7 +8,7 @@ const Product = ({ product, onDelete }) => {
       <h5>{product.title}</h5>
       <div>
         <button className="btn" onClick={()=>{onDelete(product.id)}}>
-          title
+          delete
         </button>
       </div>
     </div>
